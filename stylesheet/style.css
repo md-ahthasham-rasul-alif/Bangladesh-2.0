@@ -1,0 +1,89 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+}
+
+
+/* Shared Style */
+
+
+/* nav styling */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px 0 100px;
+}
+
+.logo {
+    width: 222px;
+    height: 38px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.signin-btn {
+    width: 100px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #006A50;
+    border-radius: 8px;
+}
+
+
+/* Banner Style */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 560px;
+    background-color: #C6E4D6;
+    margin: 20px 100px 0 100px;
+    border-radius: 24px;
+}
+
+.content {
+    width: 622px;
+    height: 326px;
+    padding: 70px 598.01px 117px 59.99px;
+}
+
+section .subtitle {
+    width: 622px;
+    height: 29px;
+    color: #0E0E0E;
+    font-size: 24px;
+}
+
+section .main-headline {
+    width: 622px;
+    height: 201px;
+    font-weight: bold;
+    font-size: 56px;
+    opacity: 100%;
+    color: #0E0E0E;
+}
+
+section .exlore {
+    width: 202px;
+    height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section .primary-btn {
+    width: 270px;
+    height: 56px;
+    background-color: #006A50;
+    border: none;
+}
+
+.main-img {
+    width: 474.03px;
+    height: 400px;
+    padding: 80px 100px 80px 0;
+}
