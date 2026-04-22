@@ -368,3 +368,46 @@ section .primary-btn {
     border-radius: 8px;
     margin-top: 32px;
 }
+
+
+/* Subcribe Section Style */
+
+.subscribe-container {
+    text-align: center;
+    border: 1px solid #eee;
+    background-color: #C6E4D6;
+    margin: 80px 100px 0 100px;
+    border-radius: 24px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+}
+
+.enter-email {
+    width: 600px;
+    height: 54px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #eee;
+    border-radius: 8px 0 0 8px;
+    margin-top: 24px;
+}
+
+.subscribe-btn {
+    width: 150px;
+    height: 57px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 24px;
+    background-color: #006A50;
+    border: 1px solid #eee;
+}
+
+.spam-text {
+    font-size: 16px;
+    color: #0E0E0E;
+    margin: 24px 0 80px 0;
+}
