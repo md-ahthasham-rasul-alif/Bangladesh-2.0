@@ -273,3 +273,43 @@ section .primary-btn {
     margin: 18px 24px 24px 0;
     padding: 12.5px 52.5px 12.5px 16.5px;
 }
+
+
+/* News Section Style */
+
+.news-card {
+    display: flex;
+    gap: 32px;
+    margin: 30px 100px 0 100px;
+    padding: 40px;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+.news-img {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+.news-headline {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.news-article {
+    font-size: 16px;
+    color: #0E0E0E;
+}
+
+.read-more {
+    width: 139px;
+    height: 48px;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+}
