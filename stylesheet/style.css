@@ -313,3 +313,58 @@ section .primary-btn {
     border: none;
     border-radius: 8px;
 }
+
+
+/* Donate Today Style */
+
+.donate-container {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.amount-box {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 24px;
+    margin: 30px 120px 0 120px;
+}
+
+.box {
+    width: 240px;
+    height: 50px;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    border: 1px solid #eee;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+}
+
+.box-active {
+    background-color: #C6E4D6;
+}
+
+.others-amount {
+    width: 1032px;
+    height: 64px;
+    background-color: #ffffff;
+    margin-top: 32px;
+    text-align: center;
+    border: none;
+    border: 1px solid #eee;
+    box-shadow: 1px 5px 16px rgba(0, 0, 0, 0.05);
+    background-color: #FFFFFF;
+}
+
+.done-btn {
+    width: 151px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    margin-top: 32px;
+}
