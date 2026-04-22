@@ -190,7 +190,15 @@ section .primary-btn {
     background-color: #fef0cf;
 }
 
-.lrn-more-blue {
+#learn-more {
+    width: 110px;
+    height: 40px;
+    margin: 5px 0 0 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
     background-color: #5490F5;
 }
 
