@@ -411,3 +411,31 @@ section .primary-btn {
     color: #0E0E0E;
     margin: 24px 0 80px 0;
 }
+
+
+/* Footer Style */
+
+.footer {
+    text-align: center;
+}
+
+.footer-line {
+    border: 1px solid #eee;
+    margin-top: 80px;
+}
+
+.footer-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.icon-separate {
+    margin: 32px 239px 0 239px;
+    border: 1px solid #eee;
+}
+
+.social-icon {
+    margin: 32px 0 50px;
+    height: 24px;
+}
