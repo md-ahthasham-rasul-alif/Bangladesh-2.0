@@ -8,6 +8,52 @@
 
 /* Shared Style */
 
+.title {
+    width: 1280px;
+    height: 48px;
+    margin: 80px 100px 0 100px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.describe {
+    margin: 24px 100px 0 100px;
+    font-size: 16px;
+    color: #0E0E0E;
+}
+
+.card-sub-logo {
+    width: 62px;
+    height: 62px;
+    padding: 25px 215px 0 25px;
+}
+
+.card-title {
+    width: 254px;
+    height: 24px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 24px 0 24px;
+}
+
+.card-describe {
+    padding: 0 24px 0 24px;
+    font-size: 16px;
+    color: #0E0E0E;
+}
+
+.learn-more {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 122px;
+    height: 41px;
+    border: none;
+    margin: 20px 0 24px 24px;
+    border-radius: 8px;
+}
+
 
 /* nav styling */
 
@@ -49,7 +95,7 @@
 .content {
     width: 622px;
     height: 326px;
-    padding: 70px 598.01px 117px 59.99px;
+    padding: 70px 0px 117px 59.99px;
 }
 
 section .subtitle {
@@ -82,8 +128,148 @@ section .primary-btn {
     border: none;
 }
 
-.main-img {
+.image-area {
+    width: 474.03px;
+    height: 400px;
+    margin: 80px 59.99px 80px 64px;
+}
+
+
+/* .main-img {
     width: 474.03px;
     height: 400px;
     padding: 80px 100px 80px 0;
+} */
+
+
+/* Pillar container style */
+
+.pillars-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 100px 0 100px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.pillar-card {
+    min-width: 200px;
+    background: #FFFFFF;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    flex: 1;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+
+/* Vision Section Style */
+
+.vision-card-container {
+    display: flex;
+    gap: 24px;
+    margin: 32px 100px 0px 100px;
+}
+
+.card {
+    width: 410.67px;
+    height: 300px;
+    border: 1px solid #eee;
+    border-radius: 16px;
+}
+
+.card-blue {
+    background-color: #e2eafc;
+}
+
+.card-green {
+    background-color: #d8f3dc;
+}
+
+.card-yellow {
+    background-color: #fef0cf;
+}
+
+.lrn-more-blue {
+    background-color: #5490F5;
+}
+
+.lrn-more-green {
+    background-color: #09A15C;
+}
+
+.lrn-more-yellow {
+    background-color: #FFC239;
+}
+
+#yunus-container {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    margin: 32px 100px 0 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+#yunus-describe {
+    font-size: 16px;
+    padding: 25px 24px 0 24px;
+}
+
+#yunus-name {
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 24px;
+}
+
+#yunus-position {
+    font-size: 16px;
+    color: #0E0E0E;
+    padding-left: 24px;
+}
+
+
+/* Opinion Section Style */
+
+.table-container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin: 24px 100px 0 100px;
+    padding: 24px;
+    overflow: hidden;
+}
+
+.table-header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    font-size: 20px;
+    font-weight: 600;
+    /* margin: 24px 24px 0 24px; */
+    padding: 24px 24px 0 24px;
+    border: 1px solid rgb(105, 101, 101);
+}
+
+.table-row {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    border: 1px solid rgb(105, 101, 101);
+}
+
+.question {
+    width: 1000px;
+    font-size: 16px;
+    padding: 30px 24px 36.5px 24px;
+    font-weight: 600;
+    border-right: 1px solid #ddd;
+}
+
+.custom-select {
+    background-color: #C6E4D6;
+    width: 152px;
+    height: 44px;
+    margin: 18px 24px 24px 0;
+    padding: 12.5px 52.5px 12.5px 16.5px;
 }
